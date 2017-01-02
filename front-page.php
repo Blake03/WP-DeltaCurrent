@@ -25,8 +25,8 @@ get_header(); ?>
 				</div><!--news-box-->
 
 				<div class="news-box">
-					<h2>ExtremeTech.com</h2>
-					<?php getFeed("https://www.extremetech.com/feed"); ?>
+					<h2>SearkToday.com</h2>
+					<?php getFeed("http://searktoday.com/feed"); ?>
 				</div><!--news-box-->
 
 				<div class="news-box">

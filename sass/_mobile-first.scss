@@ -14,7 +14,7 @@ html {
     color: #fff;
     font-size: 1em;
     line-height: 1.4;
-    background: #777
+    background: #a0a5aa
 }
 
 ::-moz-selection {
@@ -124,7 +124,7 @@ textarea {
 .news-box{
 	width: 90vw;
 	padding: 10px;
-	background: #fff;
+	background: rgba(160, 161, 167, 0.87);
 	color: #000;
 	border-radius: 5px;
 	margin: 10px auto;
@@ -146,10 +146,24 @@ textarea {
 .news-box > ul > li{
   padding: 10px;
   border-bottom: 2px solid #777;
+  background: #dcd7f1;
+  border-radius: 5px;
+  margin: 5px;
 }
-
+.news-box > ul > li >a{
+	font-weight: bold;
+}
 .news-box > ul > li >a:hover {
 	color: #0033ff;
+}
+
+.news-box > ul > li > p {
+	color: #5a5959;
+	font-size: 14px;
+}
+
+.news-box > ul > li > p > img {
+
 }
 
 .site-footer{
