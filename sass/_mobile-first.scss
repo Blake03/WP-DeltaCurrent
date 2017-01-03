@@ -107,17 +107,6 @@ h2{
 			flex-direction: column;
 		}
 
-		&__item{
-			padding: 10px 0px;
-				@media only screen and (min-width: $breakpoint-desktop) {
-				/*desktop*/
-					padding: 7px 2vw;
-				}
-		}
-
-		&__social-menu{
-			padding: 10px 2vw;
-		}
 		&__logo{
 			font-size: 22px;
 			padding: 10px 2vw;
@@ -135,7 +124,11 @@ h2{
 			margin-left: 2px;
 		}
 
-		&__menu{
+		&__social-menu{
+			padding: 10px 2vw;
+		}
+
+		&__main-menu{
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-around;
@@ -147,9 +140,20 @@ h2{
 					font-size: 20px;
 				}
 		}
-}
 
-.news-row-1{
+		&__menu-item{
+			padding: 10px 0px;
+				@media only screen and (min-width: $breakpoint-desktop) {
+				/*desktop*/
+					padding: 7px 2vw;
+				}
+		}
+
+
+}//end-navbar
+
+/*news-feed-wrapper*/
+.news-flex-wrapper{
 	display: flex;
 	justify-content: space-around;
 	flex-direction: column;
@@ -160,6 +164,7 @@ h2{
 		}
 }
 
+/*news-feeds*/
 .news-box{
 	width: 90vw;
 	padding: 10px;
@@ -172,15 +177,7 @@ h2{
 		}
 }
 
-.feed-item{
-	padding: 10px;
-	color: #a9a995;
-		& a{
-			color: #000;
-		}
-}
-
-
+/*feed-items*/
 .news-box > ul > li{
   padding: 10px;
   border-bottom: 2px solid #777;
@@ -188,21 +185,21 @@ h2{
   border-radius: 5px;
   margin: 5px;
 }
+
+/*feed-item-links*/
 .news-box > ul > li >a{
 	font-weight: bold;
-}
-.news-box > ul > li >a:hover {
-	color: #092fc5;
+		&:hover{
+			color: #092fc5;
+
+		}
 }
 
+/*feed-item-descriptions*/
 .news-box > ul > li > p {
 	color: #5a5959;
 	font-size: 14px;
 	line-height: 1.45;
-}
-
-.news-box > ul > li > p > img {
-
 }
 
 .site-footer{

@@ -42,22 +42,15 @@
                 <div class="navbar__social-menu">Social Icons</div>
             </div><!--navbar__header-->
 
-            <ul class="navbar__menu" style="">
-                <li class="navbar__item"><a href="#">News</a></li>
-                <li class="navbar__item"><a href="#">Weather</a></li>
-                <li class="navbar__item"><a href="#">Sports</a></li>
-                <li class="navbar__item"><a href="#">Fourm</a></li>
-                <li class="navbar__item"><a href="#">Classifieds</a></li>
-                <li class="navbar__item"><a href="#">Jobs</a></li>
+            <ul class="navbar__main-menu" style="">
+                <li class="navbar__menu-item"><a href="#">News</a></li>
+                <li class="navbar__menu-item"><a href="#">Weather</a></li>
+                <li class="navbar__menu-item"><a href="#">Sports</a></li>
+                <li class="navbar__menu-item"><a href="#">Fourm</a></li>
+                <li class="navbar__menu-item"><a href="#">Classifieds</a></li>
+                <li class="navbar__menu-item"><a href="#">Jobs</a></li>
 
             </ul><!--navbar__menu-->
-
-            <ul class="navbar__secondaryMenu" style="display: none;">
-                <li class="navbar__item"><a href="#what-i-do">What I Do</a></li>
-                <li class="navbar__item"><a href="#work">My Work</a></li>
-                <li class="navbar__item"><a href="#about">Who is Blake</a></li>
-            </ul><!--navbar__secondaryMenu-->
-
 
        </nav><!--navbar-->
    </div><!--mobie-only-->

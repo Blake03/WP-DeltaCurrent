@@ -17,7 +17,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<div class="news-row-1">
+			<div class="news-flex-wrapper">
 
 				<div class="news-box">
 					<h2>ArkansasOnline.com</h2>
@@ -37,7 +37,7 @@ get_header(); ?>
 					</ul>
 				</div><!--news-box-->
 
-			</div><!--news-row-1-->
+			</div><!--news-flex-wrapper-->
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
