@@ -32,6 +32,9 @@ get_header(); ?>
 				<div class="news-box">
 					<h2>MonticelloLive.com</h2>
 					<?php getFeed("http://www.monticellolive.com/feed"); ?>
+					<ul>
+					<li>Add Space</li>
+					</ul>
 				</div><!--news-box-->
 
 			</div><!--news-row-1-->

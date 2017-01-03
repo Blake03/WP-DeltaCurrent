@@ -34,19 +34,22 @@
         <nav class="navbar">
 
             <div class="navbar__header">
+                <div class="navbar__logo-wrapper">
                 <a class="navbar__logo" href="#">DeltaCurrent.com</a>
+                <a class="navbar__logo-sub" href="#">local news online</a>
+                </div>
+
                 <div class="navbar__social-menu">Social Icons</div>
             </div><!--navbar__header-->
 
             <ul class="navbar__menu" style="">
                 <li class="navbar__item"><a href="#">News</a></li>
                 <li class="navbar__item"><a href="#">Weather</a></li>
-                <li class="navbar__item"><a href="#">Classifieds</a></li>
                 <li class="navbar__item"><a href="#">Sports</a></li>
                 <li class="navbar__item"><a href="#">Fourm</a></li>
                 <li class="navbar__item"><a href="#">Classifieds</a></li>
+                <li class="navbar__item"><a href="#">Jobs</a></li>
 
-                <li class="navbar__toggle"><a href="#0">more...</a></li>
             </ul><!--navbar__menu-->
 
             <ul class="navbar__secondaryMenu" style="display: none;">

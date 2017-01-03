@@ -536,10 +536,15 @@ textarea {
 /* ==========================================================================
    Mobile-First Styles
    ========================================================================== */
+h2 {
+  font-size: 18px;
+}
+
 .navbar {
   width: 100%;
-  background: rgba(0, 0, 0, 0.93);
+  background: rgba(0, 0, 0, 0.75);
   font-weight: bold;
+  color: #dad7d7;
 }
 
 .navbar__header {
@@ -552,18 +557,61 @@ textarea {
           justify-content: space-between;
 }
 
-.navbar__logo, .navbar__item, .navbar__toggle, .navbar__social-menu {
-  padding: 10px;
-}
-
-.navbar__menu, .navbar__secondaryMenu {
+.navbar__logo-wrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 10px;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navbar__item {
+  padding: 10px 0px;
+}
+
+@media only screen and (min-width: 900px) {
+  .navbar__item {
+    /*desktop*/
+    padding: 7px 2vw;
+  }
+}
+
+.navbar__social-menu {
+  padding: 10px 2vw;
+}
+
+.navbar__logo {
+  font-size: 22px;
+  padding: 10px 2vw;
+}
+
+.navbar__logo-sub {
+  padding-left: 2vw;
+  font-size: 14px;
+  margin-top: -14px;
+}
+
+.navbar__menu {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+
+@media only screen and (min-width: 900px) {
+  .navbar__menu {
+    /*desktop*/
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 5px;
+  }
 }
 
 .news-row-1 {
@@ -593,7 +641,6 @@ textarea {
 .news-box {
   width: 90vw;
   padding: 10px;
-  background: rgba(160, 161, 167, 0.87);
   color: #000;
   border-radius: 5px;
   margin: 10px auto;
@@ -618,7 +665,7 @@ textarea {
 .news-box > ul > li {
   padding: 10px;
   border-bottom: 2px solid #777;
-  background: #dcd7f1;
+  background: #dad7d7;
   border-radius: 5px;
   margin: 5px;
 }
@@ -628,18 +675,20 @@ textarea {
 }
 
 .news-box > ul > li > a:hover {
-  color: #0033ff;
+  color: #092fc5;
 }
 
 .news-box > ul > li > p {
   color: #5a5959;
   font-size: 14px;
+  line-height: 1.45;
 }
 
 .site-footer {
-  background: #000;
+  background: rgba(0, 0, 0, 0.75);
   text-align: center;
   padding: 15px;
+  color: #dad7d7;
 }
 
 /* ==========================================================================

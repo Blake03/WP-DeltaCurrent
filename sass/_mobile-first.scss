@@ -87,11 +87,14 @@ textarea {
 /* ==========================================================================
    Mobile-First Styles
    ========================================================================== */
-
+h2{
+	font-size: 18px;
+}
 .navbar{
 	width: 100%;
-	background:rgba(0,0,0,0.93);
+	background:rgba(0,0,0,0.75);
 	font-weight: bold;
+	color: #dad7d7;
 
 		&__header{
 			font-size: 20px;
@@ -99,14 +102,43 @@ textarea {
 			justify-content: space-between;
 		}
 
-		&__logo, &__item, &__toggle, &__social-menu{
-			padding: 10px;
+		&__logo-wrapper{
+			display: flex;
+			flex-direction: column;
 		}
 
-		&__menu, &__secondaryMenu{
+		&__item{
+			padding: 10px 0px;
+				@media only screen and (min-width: $breakpoint-desktop) {
+				/*desktop*/
+					padding: 7px 2vw;
+				}
+		}
+
+		&__social-menu{
+			padding: 10px 2vw;
+		}
+		&__logo{
+			font-size: 22px;
+			padding: 10px 2vw;
+
+		}
+
+		&__logo-sub{
+			padding-left: 2vw;
+			font-size: 14px;
+			margin-top: -14px;
+		}
+
+		&__menu{
 			display: flex;
-			padding-bottom: 10px;
 			flex-wrap: wrap;
+			justify-content: space-around;
+				@media only screen and (min-width: $breakpoint-desktop) {
+				/*desktop*/
+					justify-content: center;
+					padding-bottom: 5px;
+				}
 		}
 }
 
@@ -124,7 +156,6 @@ textarea {
 .news-box{
 	width: 90vw;
 	padding: 10px;
-	background: rgba(160, 161, 167, 0.87);
 	color: #000;
 	border-radius: 5px;
 	margin: 10px auto;
@@ -146,7 +177,7 @@ textarea {
 .news-box > ul > li{
   padding: 10px;
   border-bottom: 2px solid #777;
-  background: #dcd7f1;
+  background: #dad7d7;
   border-radius: 5px;
   margin: 5px;
 }
@@ -154,12 +185,13 @@ textarea {
 	font-weight: bold;
 }
 .news-box > ul > li >a:hover {
-	color: #0033ff;
+	color: #092fc5;
 }
 
 .news-box > ul > li > p {
 	color: #5a5959;
 	font-size: 14px;
+	line-height: 1.45;
 }
 
 .news-box > ul > li > p > img {
@@ -167,7 +199,8 @@ textarea {
 }
 
 .site-footer{
-	background: #000;
+	background:rgba(0,0,0,0.75);
     text-align: center;
     padding: 15px;
+    color: #dad7d7;
 }
