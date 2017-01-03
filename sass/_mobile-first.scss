@@ -121,6 +121,10 @@ h2{
 		&__logo{
 			font-size: 22px;
 			padding: 10px 2vw;
+				@media only screen and (min-width: $breakpoint-desktop) {
+				/*desktop*/
+					font-size: 25px;
+				}
 
 		}
 
@@ -128,16 +132,19 @@ h2{
 			padding-left: 2vw;
 			font-size: 14px;
 			margin-top: -14px;
+			margin-left: 2px;
 		}
 
 		&__menu{
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-around;
+			font-size: 14px;
 				@media only screen and (min-width: $breakpoint-desktop) {
 				/*desktop*/
 					justify-content: center;
-					padding-bottom: 5px;
+					padding-bottom: 3px;
+					font-size: 20px;
 				}
 		}
 }

@@ -586,10 +586,18 @@ h2 {
   padding: 10px 2vw;
 }
 
+@media only screen and (min-width: 900px) {
+  .navbar__logo {
+    /*desktop*/
+    font-size: 25px;
+  }
+}
+
 .navbar__logo-sub {
   padding-left: 2vw;
   font-size: 14px;
   margin-top: -14px;
+  margin-left: 2px;
 }
 
 .navbar__menu {
@@ -602,6 +610,7 @@ h2 {
   -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
           justify-content: space-around;
+  font-size: 14px;
 }
 
 @media only screen and (min-width: 900px) {
@@ -610,7 +619,8 @@ h2 {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
+    font-size: 20px;
   }
 }
 
