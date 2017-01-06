@@ -126,6 +126,11 @@ h2{
 
 		&__social-menu{
 			padding: 10px 2vw;
+			font-size: 14px;
+				@media only screen and (min-width: $breakpoint-desktop) {
+				/*desktop*/
+					font-size: 20px;
+				}
 		}
 
 		&__main-menu{

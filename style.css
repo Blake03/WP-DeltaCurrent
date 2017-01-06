@@ -587,6 +587,14 @@ h2 {
 
 .navbar__social-menu {
   padding: 10px 2vw;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 900px) {
+  .navbar__social-menu {
+    /*desktop*/
+    font-size: 20px;
+  }
 }
 
 .navbar__main-menu {

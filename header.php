@@ -21,6 +21,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+<?php include_once("analyticstracking.php") ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( '', 'deltacurrent' ); ?></a>
 
@@ -39,7 +40,9 @@
                 <a class="navbar__logo-sub" href="#">local news online</a>
                 </div>
 
-                <div class="navbar__social-menu">Social Icons</div>
+                <div class="navbar__social-menu">
+                    <p id="date"></p>
+                </div>
             </div><!--navbar__header-->
 
             <ul class="navbar__main-menu" style="">
