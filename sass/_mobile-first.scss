@@ -14,7 +14,8 @@ html {
     color: #fff;
     font-size: 1em;
     line-height: 1.4;
-    background: #95989c
+    background: #95989c;
+    margin-top: 0px;
 }
 
 ::-moz-selection {
@@ -120,7 +121,6 @@ h2{
 				/*desktop*/
 					font-size: 25px;
 				}
-
 		}
 
 		&__logo-sub{
@@ -157,6 +157,9 @@ h2{
 				@media only screen and (min-width: $breakpoint-desktop) {
 				/*desktop*/
 					padding: 7px 2vw;
+						&:hover{
+							color: #fff;
+						}
 				}
 		}
 

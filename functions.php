@@ -145,7 +145,6 @@ function getFeed($feed_url) {
 
 
 
-
 /**
  * Implement the Custom Header feature.
  */
