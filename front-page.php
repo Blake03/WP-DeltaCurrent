@@ -17,19 +17,25 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<div class="news-flex-wrapper">
+			<ul class="mobile-menu">
+				<li class="mobile-menu__items"><a href="#arkansasonline">ArkansasOnline</li>
+				<li class="mobile-menu__items"><a href="#searktoday">SearkToday</a></li>
+				<li class="mobile-menu__items"><a href="#monticellolive">MonticelloLive</a></li>
+			</ul><!--mobile-menu-->
 
-				<div class="news-box">
+			<div class="news-flex-wrapper">
+				
+				<div id="arkansasonline" class="news-box">
 					<h2>ArkansasOnline.com</h2>
 					<?php getFeed("http://www.arkansasonline.com/rss/headlines"); ?>
 				</div><!--news-box-->
 
-				<div class="news-box">
+				<div id="searktoday" class="news-box">
 					<h2>SearkToday.com</h2>
 					<?php getFeed("http://searktoday.com/feed"); ?>
 				</div><!--news-box-->
 
-				<div class="news-box">
+				<div id="monticellolive" class="news-box">
 					<h2>MonticelloLive.com</h2>
 					<?php getFeed("http://www.monticellolive.com/feed"); ?>
 					<ul>
