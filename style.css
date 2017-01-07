@@ -739,10 +739,10 @@ h2 {
 }
 
 .site-footer {
-  background: #28292b;
+  background: rgba(35, 35, 35, 0.99);
   text-align: center;
   padding: 15px;
-  color: rgba(35, 35, 35, 0.97);
+  color: #95989c;
 }
 
 /* ==========================================================================
