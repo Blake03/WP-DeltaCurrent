@@ -37,14 +37,15 @@ get_header(); ?>
 
 				<div id="monticellolive" class="news-box">
 					<h2>MonticelloLive.com</h2>
-					<?php getFeed("http://www.monticellolive.com/feed"); ?>
+					<?php getFeed("http://monticellolive.com/feed"); ?>
 					<ul>
-					<li>Your Add Here</li>
+						<li>Your Add Here</li>
 					</ul>
 
 				</div><!--news-box-->
 
 			</div><!--news-flex-wrapper-->
+
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

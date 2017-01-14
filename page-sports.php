@@ -14,8 +14,8 @@ get_header(); ?>
 
 			<ul class="mobile-menu">
 				<li class="mobile-menu__items"><a href="#arkansasrazorbacks">ArkansasRazorbacks</li>
-				<li class="mobile-menu__items"><a href="#Wholehogsoprts">WholeHogSports</a></li>
-				<li class="mobile-menu__items"><a href="#monticellolive">MonticelloLive</a></li>
+				<li class="mobile-menu__items"><a href="#wholehogsoprts">WholeHogSports</a></li>
+				<li class="mobile-menu__items"><a href="#razorbloggers">RazorBloggers</a></li>
 			</ul><!--mobile-menu-->
 
 			<div class="news-flex-wrapper">
@@ -28,12 +28,12 @@ get_header(); ?>
 					</ul>
 				</div><!--news-box-->
 
-				<div id="Wholehogsoprts" class="news-box">
+				<div id="wholehogsoprts" class="news-box">
 					<h2>WholeHogSports.com</h2>
 					<?php getFeed("http://www.wholehogsports.com/rss/headlines/"); ?>
 				</div><!--news-box-->
 
-				<div id="monticellolive" class="news-box">
+				<div id="razorbloggers" class="news-box">
 					<h2>RazorBlogers.net</h2>
 					<?php getFeed("http://www.razorbloggers.net/feed/"); ?>
 				</div><!--news-box-->

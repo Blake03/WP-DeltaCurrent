@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #fff;
+    color: #000;
     font-size: 1em;
     line-height: 1.4;
     background: #95989c;
@@ -91,6 +91,17 @@ textarea {
 h2{
 	font-size: 18px;
 }
+
+.default-page-wrapper{
+	width: 90vw;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+
+.entry-content{
+	margin-top: 97px;
+}
+
 .navbar{
 	width: 100%;
 	background: rgba(35, 35, 35, .99);
@@ -176,8 +187,8 @@ h2{
     position: fixed;
     margin-top: 94px;
     width: 100%;
-    padding: 1px;
-    font-size: 15px;
+    padding: 2px;
+    font-size: 13px;
     	@media only screen and (min-width: $breakpoint-desktop) {
 		/*desktop*/
 			display: none;
@@ -218,7 +229,7 @@ h2{
 }
 
 /*feed-items*/
-.news-box > ul > li{
+.feed-item {
   padding: 10px;
   border-bottom: 2px solid #777;
   background: #dad7d7;
@@ -227,7 +238,7 @@ h2{
 }
 
 /*feed-item-links*/
-.news-box > ul > li >a{
+.feed-link {
 	font-weight: bold;
 		&:hover{
 			color: #092fc5;
@@ -236,7 +247,7 @@ h2{
 }
 
 /*feed-item-descriptions*/
-.news-box > ul > li > p {
+.feed-description {
 	color: #5a5959;
 	font-size: 14px;
 	line-height: 1.45;
@@ -247,4 +258,7 @@ h2{
     text-align: center;
     padding: 15px;
     color: #95989c;
+    
 }
+
+

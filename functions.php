@@ -131,14 +131,14 @@ function enqueue_font_awesome() {
 /*Feeds*/ 
 function getFeed($feed_url) {
      
-    $content = file_get_contents($feed_url);
-    $x = new SimpleXmlElement($content);
+    $feed = file_get_contents($feed_url);
+    $xml = new SimpleXmlElement($feed);
      
     echo "<ul>";
      
-    foreach($x->channel->item as $entry) {
-        echo "<li> <a href='$entry->link' title='$entry->title'>" . $entry->title . "</a> 
-        <p> $entry->description</p> </li>";
+    foreach($xml->channel->item as $entry) {
+        echo "<li class='feed-item' > <a class='feed-link' href='$entry->link' title='$entry->title'>" . $entry->title . "</a> 
+        <p class='feed-description'> $entry->description</p> </li>";
     }
     echo "</ul>";
 }
