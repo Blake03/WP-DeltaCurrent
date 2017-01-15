@@ -544,11 +544,11 @@ h2 {
 .default-page-wrapper {
   width: 90vw;
   margin: 0 auto;
-  padding-bottom: 100px;
+  padding-bottom: 300px;
 }
 
 .entry-content {
-  margin-top: 97px;
+  margin-top: 120px;
 }
 
 .navbar {
@@ -557,6 +557,7 @@ h2 {
   font-weight: bold;
   color: #dad7d7;
   position: fixed;
+  top: 0;
 }
 
 @media only screen and (min-width: 900px) {
@@ -616,7 +617,7 @@ h2 {
   }
 }
 
-.navbar__main-menu {
+.navbar__main-menu > div > ul {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -630,7 +631,7 @@ h2 {
 }
 
 @media only screen and (min-width: 900px) {
-  .navbar__main-menu {
+  .navbar__main-menu > div > ul {
     /*desktop*/
     -webkit-justify-content: center;
         -ms-flex-pack: center;
@@ -640,16 +641,16 @@ h2 {
   }
 }
 
-.navbar__menu-item {
+.navbar__main-menu div > ul > li {
   padding: 10px 0px;
 }
 
 @media only screen and (min-width: 900px) {
-  .navbar__menu-item {
+  .navbar__main-menu div > ul > li {
     /*desktop*/
     padding: 7px 2vw;
   }
-  .navbar__menu-item:hover {
+  .navbar__main-menu div > ul > li:hover {
     color: #fff;
   }
 }

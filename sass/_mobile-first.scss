@@ -95,12 +95,13 @@ h2{
 .default-page-wrapper{
 	width: 90vw;
 	margin: 0 auto;
-	padding-bottom: 100px;
+	padding-bottom: 300px;
 }
 
 .entry-content{
-	margin-top: 97px;
+	margin-top: 120px;
 }
+
 
 .navbar{
 	width: 100%;
@@ -108,6 +109,7 @@ h2{
 	font-weight: bold;
 	color: #dad7d7;
 	position: fixed;
+	top: 0;
 		@media only screen and (min-width: $breakpoint-desktop) {
 		/*desktop*/
 			position: static;
@@ -150,7 +152,7 @@ h2{
 				}
 		}
 
-		&__main-menu{
+		&__main-menu > div > ul {
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-around;
@@ -163,7 +165,7 @@ h2{
 				}
 		}
 
-		&__menu-item{
+		&__main-menu div > ul > li {
 			padding: 10px 0px;
 				@media only screen and (min-width: $breakpoint-desktop) {
 				/*desktop*/
@@ -173,7 +175,6 @@ h2{
 						}
 				}
 		}
-
 
 }//end-navbar
 
@@ -258,7 +259,6 @@ h2{
     text-align: center;
     padding: 15px;
     color: #95989c;
-    
 }
 
 

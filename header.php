@@ -45,15 +45,11 @@
                 </div>
             </div><!--navbar__header-->
 
-            <ul class="navbar__main-menu" style="">
-                <li class="navbar__menu-item"><a href="http://deltacurrent.com/">News</a></li>
-                <li class="navbar__menu-item"><a href="#">Weather</a></li>
-                <li class="navbar__menu-item"><a href="http://deltacurrent.com/sports/">Sports</a></li>
-                <li class="navbar__menu-item"><a href="#">Fourm</a></li>
-                <li class="navbar__menu-item"><a href="#">Classifieds</a></li>
-                <li class="navbar__menu-item"><a href="#">Jobs</a></li>
+            <div class="navbar__main-menu" style="">
+            <?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
 
-            </ul><!--navbar__menu-->
+
+            </div><!--navbar__menu-->
 
        </nav><!--navbar-->
    </div><!--mobie-only-->
