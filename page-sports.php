@@ -20,7 +20,7 @@ get_header(); ?>
 
 			<div class="news-flex-wrapper">
 				
-				<div id="arkansasrazorbacks" class="news-box">
+				<div id="arkansasrazorbacks" class="news-box animated1 rotateInDownRight">
 					<h2>ArkansasRazorbacks.com</h2>
 					<?php getFeed("http://www.arkansasrazorbacks.com/feed/"); ?>
 					<ul>
@@ -28,12 +28,12 @@ get_header(); ?>
 					</ul>
 				</div><!--news-box-->
 
-				<div id="wholehogsoprts" class="news-box">
+				<div id="wholehogsoprts" class="news-box animated2 rotateInDownRight">
 					<h2>WholeHogSports.com</h2>
 					<?php getFeed("http://www.wholehogsports.com/rss/headlines/"); ?>
 				</div><!--news-box-->
 
-				<div id="razorbloggers" class="news-box">
+				<div id="razorbloggers" class="news-box animated3 rotateInDownRight">
 					<h2>RazorBlogers.net</h2>
 					<?php getFeed("http://www.razorbloggers.net/feed/"); ?>
 				</div><!--news-box-->
