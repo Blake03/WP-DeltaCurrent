@@ -153,7 +153,8 @@ h2{
 
 		&__date-time{
 			padding: 10px 2vw;
-			font-size: 14px;
+			font-size: 13px;
+			line-height: 2;
 				@media only screen and (min-width: $breakpoint-desktop) {
 				/*desktop*/
 					font-size: 20px;

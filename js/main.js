@@ -4,7 +4,7 @@ document.getElementById("date").innerHTML = d.toDateString();
 
 //smoothscroll & back2top
 
-$("a").on("click", function(b) {
+jQuery("a").on("click", function(b) {
     if ("" !== this.hash) {
         b.preventDefault();
         var a = this.hash;
