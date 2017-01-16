@@ -13,9 +13,9 @@ get_header(); ?>
 
 
 			<ul class="mobile-feed-menu">
-				<li class="mobile-menu__items"><a href="#arkansasrazorbacks">ArkansasRazorbacks</li>
-				<li class="mobile-menu__items"><a href="#wholehogsoprts">WholeHogSports</a></li>
-				<li class="mobile-menu__items"><a href="#razorbloggers">RazorBloggers</a></li>
+				<li class="mobile-feed-menu__items"><a href="#arkansasrazorbacks">ArkansasRazorbacks</li>
+				<li class="mobile-feed-menu__items"><a href="#wholehogsoprts">WholeHogSports</a></li>
+				<li class="mobile-feed-menu__items"><a href="#razorbloggers">RazorBloggers</a></li>
 			</ul><!--mobile-menu-->
 
 			<div class="news-flex-wrapper">
