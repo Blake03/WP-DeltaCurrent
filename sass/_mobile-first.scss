@@ -106,17 +106,21 @@ h2{
 		}
 }
 
-
+/*===Navbar Styles===*/
 .navbar{
-	width: 100%;
 	background: rgba(35, 35, 35, .99);
 	font-weight: bold;
 	color: #dad7d7;
 	position: fixed;
 	top: 0;
+	right: 0;
+	left: 0;
 		@media only screen and (min-width: $breakpoint-desktop) {
 		/*desktop*/
-			position: static;
+    		position: static;
+    		border-bottom: 2px solid #828181;
+    		border-radius: 5px;
+    		margin: 10px;
 		}
 
 
@@ -129,7 +133,6 @@ h2{
 		&__logo-wrapper{
 			display: flex;
 			flex-direction: column;
-		}
 
 		&__logo{
 			font-size: 22px;
@@ -140,14 +143,15 @@ h2{
 				}
 		}
 
-		&__logo-sub{
+		&__tag-line{
 			padding-left: 2vw;
 			font-size: 14px;
 			margin-top: -14px;
 			margin-left: 2px;
 		}
+		}
 
-		&__social-menu{
+		&__date-time{
 			padding: 10px 2vw;
 			font-size: 14px;
 				@media only screen and (min-width: $breakpoint-desktop) {
@@ -169,7 +173,7 @@ h2{
 				}
 		}
 
-		&__main-menu div > ul > li {
+		&__main-menu > div > ul > li {
 			padding: 10px 0px;
 				@media only screen and (min-width: $breakpoint-desktop) {
 				/*desktop*/
@@ -183,17 +187,18 @@ h2{
 }//end-navbar
 
 
-
-.mobile-menu {
+/*===Mobile-Feed-Menue Styles===*/
+.mobile-feed-menu {
     display: flex;
     justify-content: space-around;
     background: rgba(95, 95, 95, .98);
     color: white;
     position: fixed;
     margin-top: 94px;
-    width: 100%;
     padding: 3px;
     font-size: 12px;
+    right: 0;
+    left: 0;
     	@media only screen and (min-width: $breakpoint-desktop) {
 		/*desktop*/
 			display: none;
@@ -204,9 +209,9 @@ h2{
     		text-align: center;
     	}
 
-}//end-mobile-menu
+}//end-mobile-feed-menu
 
-/*news-feed-wrapper*/
+/*===news-feed-wrapper===*/
 .news-flex-wrapper{
 	display: flex;
 	justify-content: space-around;
@@ -215,10 +220,11 @@ h2{
 		/*desktop*/
 			flex-direction: row;
 			flex-wrap: wrap;
+			padding-top: 20px;
 		}
 }
 
-/*news-feeds*/
+/*===news-feeds===*/
 .news-box{
 	width: 90vw;
 	padding: 10px;
@@ -233,7 +239,7 @@ h2{
 		}
 }
 
-/*feed-items*/
+/*===feed-items===*/
 .feed-item {
   padding: 10px;
   border-bottom: 2px solid #777;
@@ -242,7 +248,7 @@ h2{
   margin: 5px;
 }
 
-/*feed-item-links*/
+/*===feed-item-links===*/
 .feed-link {
 	font-weight: bold;
 		&:hover{
@@ -251,18 +257,25 @@ h2{
 		}
 }
 
-/*feed-item-descriptions*/
+/*===feed-item-descriptions===*/
 .feed-description {
 	color: #5a5959;
 	font-size: 14px;
 	line-height: 1.45;
 }
 
+/*===Footer===*/
 .site-footer{
 	background: rgba(35, 35, 35, .99);
     text-align: center;
     padding: 15px;
     color: #95989c;
+		@media only screen and (min-width: $breakpoint-desktop) {
+		/*desktop*/
+    		border-bottom: 2px solid #828181;
+    		border-radius: 5px;
+    		margin: 10px;
+		}
 }
 
 

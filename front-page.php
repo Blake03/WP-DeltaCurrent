@@ -17,7 +17,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<ul class="mobile-menu">
+			<ul class="mobile-feed-menu">
 				<li class="mobile-menu__items"><a href="#arkansasonline">ArkansasOnline</li>
 				<li class="mobile-menu__items"><a href="#searktoday">SearkToday</a></li>
 				<li class="mobile-menu__items"><a href="#monticellolive">MonticelloLive</a></li>

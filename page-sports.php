@@ -12,7 +12,7 @@
 get_header(); ?>
 
 
-			<ul class="mobile-menu">
+			<ul class="mobile-feed-menu">
 				<li class="mobile-menu__items"><a href="#arkansasrazorbacks">ArkansasRazorbacks</li>
 				<li class="mobile-menu__items"><a href="#wholehogsoprts">WholeHogSports</a></li>
 				<li class="mobile-menu__items"><a href="#razorbloggers">RazorBloggers</a></li>
@@ -23,8 +23,9 @@ get_header(); ?>
 				<div id="arkansasrazorbacks" class="news-box animated1 rotateInDownRight">
 					<h2>ArkansasRazorbacks.com</h2>
 					<?php getFeed("http://www.arkansasrazorbacks.com/feed/"); ?>
+
 					<ul>
-					<li>Your Add Here</li>
+						<li>Your Add Here</li>
 					</ul>
 				</div><!--news-box-->
 

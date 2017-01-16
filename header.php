@@ -21,7 +21,9 @@
 </head>
 
 <body <?php body_class(); ?>>
+
 <?php include_once("analyticstracking.php") ?>
+
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( '', 'deltacurrent' ); ?></a>
 
@@ -31,28 +33,26 @@
     ====================================================
     start-navbar
     -->
-    <div class="mobile-only">
         <nav class="navbar">
 
             <div class="navbar__header">
+
                 <div class="navbar__logo-wrapper">
-                <a class="navbar__logo" href="#">DeltaCurrent.com</a>
-                <a class="navbar__logo-sub" href="#">local news online</a>
+                    <a class="navbar__logo-wrapper__logo" href="#">DeltaCurrent.com</a>
+                    <a class="navbar__logo-wrapper__tag-line" href="#">local news online</a>
                 </div>
 
-                <div class="navbar__social-menu">
+                <div class="navbar__date-time">
                     <p id="date"></p>
-                </div>
+                </div><!--date-time-->
+
             </div><!--navbar__header-->
 
             <div class="navbar__main-menu" style="">
-            <?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
-
-
+                <?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
             </div><!--navbar__menu-->
 
        </nav><!--navbar-->
-   </div><!--mobie-only-->
     <!--
     end-navbar
     ====================================================
