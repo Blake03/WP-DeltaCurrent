@@ -22,8 +22,6 @@
 
 <body <?php body_class(); ?>>
 
-<?php include_once("analyticstracking.php") ?>
-
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( '', 'deltacurrent' ); ?></a>
 
