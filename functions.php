@@ -105,15 +105,15 @@ add_action( 'widgets_init', 'deltacurrent_widgets_init' );
  * Enqueue scripts and styles.
  */
 function deltacurrent_scripts() {
-
+//style.css
 	wp_enqueue_style( 'deltacurrent-style', get_stylesheet_uri() );
-
+//jQuery
 	wp_enqueue_script( 'jquery-3.0.0.min.js', get_template_directory_uri() . '/js/jquery-3.0.0.min.js', array(), '20151215', true );
-
+//navigation.js
 	wp_enqueue_script( 'deltacurrent-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-
+//skip-link-focus
 	wp_enqueue_script( 'deltacurrent-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
-
+//main.js
 	wp_enqueue_script( 'deltacurrent-main.js', get_template_directory_uri() . '/js/main.js', array('jquery-3.0.0.min.js'), '20151215', true );
 
 
