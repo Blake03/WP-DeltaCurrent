@@ -763,7 +763,12 @@ h2 {
 }
 
 /*===feed-item-descriptions===*/
-.feed-description {
+/*.feed-description {
+	color: #5a5959;
+	font-size: 14px;
+	line-height: 1.45;
+}*/
+.news-box p {
   color: #5a5959;
   font-size: 14px;
   line-height: 1.45;

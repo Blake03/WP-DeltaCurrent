@@ -14,11 +14,6 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-
-<aside id="secondary" class="widget-area" role="complementary">
-	<?php dynamic_sidebar( 'sidebar-1' ); ?>
-</aside><!-- #secondary -->
-	
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'deltacurrent' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'deltacurrent' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
