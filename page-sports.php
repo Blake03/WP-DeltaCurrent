@@ -23,10 +23,8 @@ get_header(); ?>
 				<div id="arkansasrazorbacks" class="news-box animated1 rotateInDownRight">
 					<h2>ArkansasRazorbacks.com</h2>
 					<?php getFeed("http://www.arkansasrazorbacks.com/feed/"); ?>
+					<?php dynamic_sidebar( 'sidebar-2' ); ?>
 
-					<ul>
-						<li>Your Add Here</li>
-					</ul>
 				</div><!--news-box-->
 
 				<div id="wholehogsoprts" class="news-box animated2 rotateInDownRight">
