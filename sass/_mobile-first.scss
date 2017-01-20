@@ -91,13 +91,32 @@ textarea {
 h2{
 	font-size: 18px;
 }
+/*=========page.php & single.php styles=========*/
+
+.page-flex{
+		@media only screen and (min-width: $breakpoint-desktop) {
+		/*desktop*/
+			display: flex;
+		}
+}
 
 .default-page-wrapper{
 	width: 90vw;
 	margin: 0 auto;
-	padding-bottom: 300px;
+	padding-bottom: 100px;
 }
 
+.default-page-content{
+    background: #aaa;
+    padding: 20px;
+    border-radius: 7px;
+    margin-top: 45px;
+    border-bottom: 1px solid #777;
+   		@media only screen and (min-width: $breakpoint-desktop) {
+		/*desktop*/
+		    width: 100%;
+		}
+}
 .entry-content{
 	margin-top: 50px;
 		@media only screen and (min-width: $breakpoint-desktop) {
@@ -106,7 +125,7 @@ h2{
 		}
 }
 
-/*===Navbar Styles===*/
+/*==============Navbar Styles==============*/
 .navbar{
 	background: rgba(35, 35, 35, .99);
 	font-weight: bold;
@@ -187,6 +206,7 @@ h2{
 
 }//end-navbar
 
+/*==============News Feed Styles==============*/
 
 /*===Mobile-Feed-Menue Styles===*/
 .mobile-feed-menu {
@@ -225,6 +245,7 @@ h2{
 		}
 }
 
+
 /*===news-feeds===*/
 .news-box{
 	width: 90vw;
@@ -259,18 +280,13 @@ h2{
 }
 
 /*===feed-item-descriptions===*/
-/*.feed-description {
-	color: #5a5959;
-	font-size: 14px;
-	line-height: 1.45;
-}*/
 .news-box p{
 	color: #5a5959;
 	font-size: 14px;
 	line-height: 1.45;
 }
 
-/*===Footer===*/
+/*==============Footer==============*/
 .site-footer{
 	background: rgba(35, 35, 35, .99);
     text-align: center;
@@ -284,14 +300,9 @@ h2{
 		}
 }
 
-.page-flex{
-		@media only screen and (min-width: $breakpoint-desktop) {
-		/*desktop*/
-			display: flex;
-		}
-}
 
 
+/*==============Widgets==============*/
 
 .widget-area{
     background: #aaa;
@@ -307,25 +318,13 @@ h2{
 		}
 }
 
-//.page-wrap{
-//	width: 100%;
-//}
 
-.page-article{
+
+.widget-2{
     background: #aaa;
     padding: 20px;
     border-radius: 7px;
-    margin-top: 45px;
-    border-bottom: 1px solid #777;
-   		@media only screen and (min-width: $breakpoint-desktop) {
-		/*desktop*/
-		    width: 100%;
-		}
-}
-
-.widget-2{
-	background: #7a807b;
-    padding: 20px;
-    border-radius: 7px;
     margin: 20px 4px;
+    box-sizing: border-box;
+   	border-bottom: 1px solid #777;
 }

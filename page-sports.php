@@ -33,8 +33,8 @@ get_header(); ?>
 				</div><!--news-box-->
 
 				<div id="razorbloggers" class="news-box animated3 rotateInDownRight">
-					<h2>RazorBlogers.net</h2>
-					<?php getFeed("http://www.razorbloggers.net/feed/"); ?>
+					<h2>ESPN.com</h2>
+					<?php getFeed("http://www.espn.com/espn/rss/news"); ?>
 				</div><!--news-box-->
 
 			</div><!--news-flex-wrapper-->
