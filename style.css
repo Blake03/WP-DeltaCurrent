@@ -468,7 +468,7 @@ a {
    Base styles
    ========================================================================== */
 html {
-  color: #000;
+  color: #211c1c;
   font-size: 1em;
   line-height: 1.4;
   background: #95989c;
@@ -548,13 +548,13 @@ h2 {
 }
 
 .entry-content {
-  margin-top: 120px;
+  margin-top: 50px;
 }
 
 @media only screen and (min-width: 900px) {
   .entry-content {
     /*desktop*/
-    margin-top: 75px;
+    margin-top: 0px;
   }
 }
 
@@ -788,6 +788,47 @@ h2 {
     border-bottom: 2px solid #828181;
     border-radius: 5px;
     margin: 10px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .page-flex {
+    /*desktop*/
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.widget-area {
+  background: #aaa;
+  margin-left: 3vw;
+  margin-top: 45px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  border-bottom: 1px solid #777;
+}
+
+@media only screen and (min-width: 900px) {
+  .widget-area {
+    /*desktop*/
+    width: 360px;
+  }
+}
+
+.page-article {
+  background: #aaa;
+  padding: 20px;
+  border-radius: 7px;
+  margin-top: 45px;
+  border-bottom: 1px solid #777;
+}
+
+@media only screen and (min-width: 900px) {
+  .page-article {
+    /*desktop*/
+    width: 100%;
   }
 }
 

@@ -9,6 +9,8 @@
 
 ?>
 
+<div class="page-article">
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
@@ -45,3 +47,5 @@
 		<?php deltacurrent_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
+</div><!--page-article-->
+<?php get_sidebar(); ?>
