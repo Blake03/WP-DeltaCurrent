@@ -10,7 +10,7 @@
 ?>
 
 <div class="default-page-content">
-
+content.php
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
@@ -48,4 +48,4 @@
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
 </div><!--default-page-content-->
-<?php get_sidebar(); ?>
+

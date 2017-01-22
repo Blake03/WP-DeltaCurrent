@@ -15,7 +15,7 @@ get_header(); ?>
 			<ul class="mobile-feed-menu">
 				<li class="mobile-feed-menu__items"><a href="#arkansasrazorbacks">ArkansasRazorbacks</li>
 				<li class="mobile-feed-menu__items"><a href="#wholehogsoprts">WholeHogSports</a></li>
-				<li class="mobile-feed-menu__items"><a href="#razorbloggers">RazorBloggers</a></li>
+				<li class="mobile-feed-menu__items"><a href="#espn">ESPN</a></li>
 			</ul><!--mobile-menu-->
 
 			<div class="news-flex-wrapper">
@@ -32,7 +32,7 @@ get_header(); ?>
 					<?php getFeed("http://www.wholehogsports.com/rss/headlines/"); ?>
 				</div><!--news-box-->
 
-				<div id="razorbloggers" class="news-box animated3 rotateInDownRight">
+				<div id="espn" class="news-box animated3 rotateInDownRight">
 					<h2>ESPN.com</h2>
 					<?php getFeed("http://www.espn.com/espn/rss/news"); ?>
 				</div><!--news-box-->

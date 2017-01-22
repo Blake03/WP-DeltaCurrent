@@ -36,8 +36,8 @@
             <div class="navbar__header">
 
                 <div class="navbar__logo-wrapper">
-                    <a class="navbar__logo-wrapper__logo" href="#">DeltaCurrent.com</a>
-                    <a class="navbar__logo-wrapper__tag-line" href="#">local news online</a>
+                    <a class="navbar__logo-wrapper__logo" href="http://deltacurrent.com/">DeltaCurrent.com</a>
+                    <a class="navbar__logo-wrapper__tag-line" href="http://deltacurrent.com/">local news online</a>
                 </div>
 
                 <div class="navbar__date-time">

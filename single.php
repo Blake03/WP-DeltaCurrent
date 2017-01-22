@@ -11,8 +11,9 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<div class="default-page-wrapper page-flex">
+				<div class="column-main">
 
+single.php
 		<?php
 		while ( have_posts() ) : the_post();
 
@@ -27,10 +28,11 @@ get_header(); ?>
 
 		endwhile; // End of the loop.
 		?>
-			</div><!--default-page-wrapper page-flex-->
+			</div><!--column-main-->
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
 <?php
+get_sidebar();
 get_footer();

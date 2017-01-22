@@ -92,11 +92,14 @@ h2{
 	font-size: 18px;
 }
 /*=========page.php & single.php styles=========*/
-
+.site{
+	padding: 10px;
+}
 .page-flex{
 		@media only screen and (min-width: $breakpoint-desktop) {
 		/*desktop*/
 			display: flex;
+			flex-wrap: wrap;
 		}
 }
 
@@ -114,7 +117,7 @@ h2{
     border-bottom: 1px solid #777;
    		@media only screen and (min-width: $breakpoint-desktop) {
 		/*desktop*/
-		    width: 100%;
+		margin: 20px;
 		}
 }
 .entry-content{
@@ -139,7 +142,6 @@ h2{
     		position: static;
     		border-bottom: 2px solid #828181;
     		border-radius: 5px;
-    		margin: 10px;
 		}
 
 
@@ -296,7 +298,6 @@ h2{
 		/*desktop*/
     		border-bottom: 2px solid #828181;
     		border-radius: 5px;
-    		margin: 10px;
 		}
 }
 
@@ -306,7 +307,7 @@ h2{
 
 .widget-area{
     background: #aaa;
-    margin-left: 3vw;
+    //margin-left: 3vw;
     margin-top: 45px;
     padding: 20px;
     box-sizing: border-box;
@@ -314,7 +315,7 @@ h2{
 	border-bottom: 1px solid #777;
 		@media only screen and (min-width: $breakpoint-desktop) {
 		/*desktop*/
-	    	width: 360px;
+		margin-right: 20px;
 		}
 }
 
@@ -327,4 +328,57 @@ h2{
     margin: 20px 4px;
     box-sizing: border-box;
    	border-bottom: 1px solid #777;
+}
+
+.comments-area{
+    background: #aaa;
+    padding: 20px;
+    margin: 45px 0px 0px 0px;
+    box-sizing: border-box;
+    clear: both;
+	border-radius: 7px;
+	border-bottom: 1px solid #777;
+		@media only screen and (min-width: $breakpoint-desktop) {
+			/*desktop*/
+				margin: 45px 20px 20px 20px;
+		}
+
+}
+
+.comments-area textarea{
+	width: 100%;
+}
+
+.site-footer {
+	margin: 0px -10px -10px -10px;
+		@media only screen and (min-width: $breakpoint-desktop) {
+			/*desktop*/
+				clear: both;
+				margin: 0px;
+
+		}
+
+}
+.content-area {
+	margin-bottom: 100px;
+		@media only screen and (min-width: $breakpoint-desktop) {
+			/*desktop*/
+				float: left;
+				margin: 0 -30% 150px 0;
+				width: 100%;
+		}
+}
+@media only screen and (min-width: $breakpoint-desktop) {
+/*desktop*/
+.column-main {
+	margin: 0 30% 0 0;
+}
+.site-content .widget-area {
+	float: right;
+	overflow: hidden;
+	width: 25%;
+}
+}
+.site-content{
+	padding-bottom: 100px;
 }
