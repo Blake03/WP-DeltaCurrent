@@ -9,7 +9,6 @@
 
 ?>
 <div class="default-page-content">
-content-page.php
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 	</header><!-- .entry-header -->

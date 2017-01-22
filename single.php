@@ -13,7 +13,6 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 				<div class="column-main">
 
-single.php
 		<?php
 		while ( have_posts() ) : the_post();
 

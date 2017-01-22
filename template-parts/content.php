@@ -9,8 +9,7 @@
 
 ?>
 
-<div class="default-page-content">
-content.php
+<div class="default-post-content">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
@@ -47,5 +46,5 @@ content.php
 		<?php deltacurrent_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
-</div><!--default-page-content-->
+</div><!--default-post-content-->
 

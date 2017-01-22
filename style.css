@@ -575,7 +575,22 @@ h2 {
 @media only screen and (min-width: 900px) {
   .default-page-content {
     /*desktop*/
-    margin: 20px;
+    margin: 40px 20px 20px 20px;
+  }
+}
+
+.default-post-content {
+  background: #aaa;
+  padding: 20px;
+  border-radius: 7px;
+  margin-top: 82px;
+  border-bottom: 1px solid #777;
+}
+
+@media only screen and (min-width: 900px) {
+  .default-post-content {
+    /*desktop*/
+    margin: 40px 20px 20px 20px;
   }
 }
 
@@ -711,7 +726,7 @@ h2 {
   background: rgba(95, 95, 95, 0.98);
   color: white;
   position: fixed;
-  margin-top: 94px;
+  margin-top: 84px;
   padding: 3px;
   font-size: 12px;
   right: 0;
@@ -820,7 +835,7 @@ h2 {
 /*==============Widgets==============*/
 .widget-area {
   background: #aaa;
-  margin-top: 45px;
+  margin-top: 40px;
   padding: 20px;
   box-sizing: border-box;
   border-radius: 7px;
@@ -903,6 +918,10 @@ h2 {
 
 .site-content {
   padding-bottom: 100px;
+}
+
+.comment-respond p {
+  margin-top: 7px;
 }
 
 /*!
