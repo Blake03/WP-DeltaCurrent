@@ -91,54 +91,6 @@ textarea {
 h2{
 	font-size: 18px;
 }
-/*=========page.php & single.php styles=========*/
-.site{
-	padding: 10px;
-}
-.page-flex{
-		@media only screen and (min-width: $breakpoint-desktop) {
-		/*desktop*/
-			display: flex;
-			flex-wrap: wrap;
-		}
-}
-
-.default-page-wrapper{
-	width: 90vw;
-	margin: 0 auto;
-	padding-bottom: 100px;
-}
-
-.default-page-content{
-    background: #aaa;
-    padding: 20px;
-    border-radius: 7px;
-    margin-top: 45px;
-    border-bottom: 1px solid #777;
-   		@media only screen and (min-width: $breakpoint-desktop) {
-		/*desktop*/
-		margin: 40px 20px 20px 20px;
-		}
-}
-
-.default-post-content{
-    background: #aaa;
-    padding: 20px;
-    border-radius: 7px;
-    margin-top: 82px;
-    border-bottom: 1px solid #777;
-   		@media only screen and (min-width: $breakpoint-desktop) {
-		/*desktop*/
-		margin: 40px 20px 20px 20px;
-		}
-}
-.entry-content{
-	margin-top: 50px;
-		@media only screen and (min-width: $breakpoint-desktop) {
-		/*desktop*/
-			margin-top: 0px;
-		}
-}
 
 /*==============Navbar Styles==============*/
 .navbar{
@@ -300,16 +252,22 @@ h2{
 	line-height: 1.45;
 }
 
+
+
+
 /*==============Footer==============*/
 .site-footer{
 	background: rgba(35, 35, 35, .99);
     text-align: center;
+	margin: 0px -10px -10px -10px;
     padding: 15px;
     color: #95989c;
 		@media only screen and (min-width: $breakpoint-desktop) {
 		/*desktop*/
     		border-bottom: 2px solid #828181;
     		border-radius: 5px;
+			clear: both;
+			margin: 0px;
 		}
 }
 
@@ -331,8 +289,6 @@ h2{
 		}
 }
 
-
-
 .widget-2{
     background: #aaa;
     padding: 20px;
@@ -342,6 +298,88 @@ h2{
    	border-bottom: 1px solid #777;
 }
 
+
+
+
+/*=========page.php & single.php styles=========*/
+.site{
+	padding: 10px;
+}
+.page-flex{
+		@media only screen and (min-width: $breakpoint-desktop) {
+		/*desktop*/
+			display: flex;
+			flex-wrap: wrap;
+		}
+}
+
+.default-page-wrapper{
+	width: 90vw;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+
+.default-page-content{
+    background: #aaa;
+    padding: 20px;
+    border-radius: 7px;
+    margin-top: 45px;
+    border-bottom: 1px solid #777;
+   		@media only screen and (min-width: $breakpoint-desktop) {
+		/*desktop*/
+		margin: 40px 20px 20px 20px;
+		}
+}
+
+.default-post-content{
+    background: #aaa;
+    padding: 20px;
+    border-radius: 7px;
+    margin-top: 82px;
+    border-bottom: 1px solid #777;
+   		@media only screen and (min-width: $breakpoint-desktop) {
+		/*desktop*/
+		margin: 40px 20px 20px 20px;
+		}
+}
+.entry-content{
+	margin-top: 50px;
+		@media only screen and (min-width: $breakpoint-desktop) {
+		/*desktop*/
+			margin-top: 0px;
+		}
+}
+
+.site-content{
+	padding-bottom: 100px;
+}
+
+//floating layout
+@media only screen and (min-width: $breakpoint-desktop) {
+/*desktop*/
+	.column-main {
+		margin: 0 30% 0 0;
+	}
+
+	.site-content .widget-area {
+		float: right;
+		overflow: hidden;
+		width: 25%;
+	}
+}
+
+.content-area {
+	margin-bottom: 100px;
+		@media only screen and (min-width: $breakpoint-desktop) {
+			/*desktop*/
+				float: left;
+				margin: 0 -30% 150px 0;
+				width: 100%;
+		}
+}
+
+
+//Comments
 .comments-area{
     background: #aaa;
     padding: 20px;
@@ -361,40 +399,41 @@ h2{
 	width: 100%;
 }
 
-.site-footer {
-	margin: 0px -10px -10px -10px;
-		@media only screen and (min-width: $breakpoint-desktop) {
-			/*desktop*/
-				clear: both;
-				margin: 0px;
-
-		}
-
-}
-.content-area {
-	margin-bottom: 100px;
-		@media only screen and (min-width: $breakpoint-desktop) {
-			/*desktop*/
-				float: left;
-				margin: 0 -30% 150px 0;
-				width: 100%;
-		}
-}
-@media only screen and (min-width: $breakpoint-desktop) {
-/*desktop*/
-.column-main {
-	margin: 0 30% 0 0;
-}
-.site-content .widget-area {
-	float: right;
-	overflow: hidden;
-	width: 25%;
-}
-}
-.site-content{
-	padding-bottom: 100px;
-}
 
 .comment-respond p{
 	margin-top: 7px;
 }
+
+
+
+//awpcp styles
+.awpcp-nav-menu{
+    background: #95989c;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+//odd ads
+.displayaditemseven{
+	padding: 7px;
+	background: #d0cfc9;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+//even ads
+.displayaditemsodd{
+	margin-bottom: 10px;
+    background: #DEDDDE !important;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.awpcp-listings-widget-item {
+	margin-bottom: 25px !important;
+}
+
+
+
+
