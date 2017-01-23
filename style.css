@@ -646,8 +646,12 @@ h2 {
     padding: 7px 2vw;
   }
   .navbar__main-menu > div > ul > li:hover {
-    color: #fff;
+    color: #fdfdfd;
   }
+}
+
+.current-menu-item {
+  color: #fdfdfd;
 }
 
 /*==============News Feed Styles==============*/
@@ -785,6 +789,7 @@ h2 {
   .widget-area {
     /*desktop*/
     margin-right: 20px;
+    margin-bottom: 40px;
   }
 }
 
@@ -795,6 +800,32 @@ h2 {
   margin: 20px 4px;
   box-sizing: border-box;
   border-bottom: 1px solid #777;
+}
+
+/*==============Comments==============*/
+.comments-area {
+  background: #aaa;
+  padding: 20px;
+  margin: 45px 0px 0px 0px;
+  box-sizing: border-box;
+  clear: both;
+  border-radius: 7px;
+  border-bottom: 1px solid #777;
+}
+
+@media only screen and (min-width: 900px) {
+  .comments-area {
+    /*desktop*/
+    margin: 45px 20px 20px 20px;
+  }
+}
+
+.comments-area textarea {
+  width: 100%;
+}
+
+.comment-respond p {
+  margin-top: 7px;
 }
 
 /*=========page.php & single.php styles=========*/
@@ -865,6 +896,7 @@ h2 {
   padding-bottom: 100px;
 }
 
+/*==============floating layout==============*/
 @media only screen and (min-width: 900px) {
   /*desktop*/
   .column-main {
@@ -890,31 +922,7 @@ h2 {
   }
 }
 
-.comments-area {
-  background: #aaa;
-  padding: 20px;
-  margin: 45px 0px 0px 0px;
-  box-sizing: border-box;
-  clear: both;
-  border-radius: 7px;
-  border-bottom: 1px solid #777;
-}
-
-@media only screen and (min-width: 900px) {
-  .comments-area {
-    /*desktop*/
-    margin: 45px 20px 20px 20px;
-  }
-}
-
-.comments-area textarea {
-  width: 100%;
-}
-
-.comment-respond p {
-  margin-top: 7px;
-}
-
+/*==============AWPCP==============*/
 .awpcp-nav-menu {
   background: #95989c;
   padding: 10px 10px 0px 10px;
@@ -940,6 +948,28 @@ h2 {
 
 .awpcp-listings-widget-item {
   margin-bottom: 25px !important;
+}
+
+.awpcplatestbox {
+  background: #d0cfc9;
+  padding: 10px;
+  border-bottom: 1px solid #888785;
+  padding-bottom: 15px;
+  margin: 10px 5px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.awpcplatestthumb {
+  background: #d0cfc9 !important;
+}
+
+.awpcp-listings-widget-item-listing-link img {
+  border-radius: 3px;
+}
+
+.awpcp-listings-widget-item-excerpt {
+  padding: 0px 10px;
 }
 
 /*!

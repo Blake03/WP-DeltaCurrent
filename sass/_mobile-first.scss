@@ -119,6 +119,7 @@ h2{
 			display: flex;
 			flex-direction: column;
 
+
 			&__logo{
 				font-size: 22px;
 				padding: 10px 2vw;
@@ -165,12 +166,16 @@ h2{
 				/*desktop*/
 					padding: 7px 2vw;
 						&:hover{
-							color: #fff;
+							color: #fdfdfd;
 						}
 				}
 		}
 
 }//end-navbar
+
+.current-menu-item {
+	color: #fdfdfd;
+}
 
 /*==============News Feed Styles==============*/
 
@@ -286,6 +291,7 @@ h2{
 		@media only screen and (min-width: $breakpoint-desktop) {
 		/*desktop*/
 		margin-right: 20px;
+		margin-bottom: 40px;
 		}
 }
 
@@ -299,7 +305,30 @@ h2{
 }
 
 
+/*==============Comments==============*/
+.comments-area{
+    background: #aaa;
+    padding: 20px;
+    margin: 45px 0px 0px 0px;
+    box-sizing: border-box;
+    clear: both;
+	border-radius: 7px;
+	border-bottom: 1px solid #777;
+		@media only screen and (min-width: $breakpoint-desktop) {
+			/*desktop*/
+				margin: 45px 20px 20px 20px;
+		}
 
+}
+
+.comments-area textarea{
+	width: 100%;
+}
+
+
+.comment-respond p{
+	margin-top: 7px;
+}
 
 /*=========page.php & single.php styles=========*/
 .site{
@@ -354,7 +383,8 @@ h2{
 	padding-bottom: 100px;
 }
 
-//floating layout
+
+/*==============floating layout==============*/
 @media only screen and (min-width: $breakpoint-desktop) {
 /*desktop*/
 	.column-main {
@@ -379,34 +409,9 @@ h2{
 }
 
 
-//Comments
-.comments-area{
-    background: #aaa;
-    padding: 20px;
-    margin: 45px 0px 0px 0px;
-    box-sizing: border-box;
-    clear: both;
-	border-radius: 7px;
-	border-bottom: 1px solid #777;
-		@media only screen and (min-width: $breakpoint-desktop) {
-			/*desktop*/
-				margin: 45px 20px 20px 20px;
-		}
 
-}
+/*==============AWPCP==============*/
 
-.comments-area textarea{
-	width: 100%;
-}
-
-
-.comment-respond p{
-	margin-top: 7px;
-}
-
-
-
-//awpcp styles
 .awpcp-nav-menu{
     background: #95989c;
     padding: 10px 10px 0px 10px;
@@ -434,6 +439,24 @@ h2{
 	margin-bottom: 25px !important;
 }
 
+.awpcplatestbox {
+    background: #d0cfc9;
+    padding: 10px;
+	border-bottom: 1px solid #888785;
+    padding-bottom: 15px;
+    margin: 10px 5px;
+    border-radius: 4px;
+    text-align: center;
+}
 
+.awpcplatestthumb {
+    background: #d0cfc9 !important;
+}
 
+.awpcp-listings-widget-item-listing-link img{
+	border-radius: 3px;
+}
 
+.awpcp-listings-widget-item-excerpt{
+	padding: 0px 10px;
+}
