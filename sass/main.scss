@@ -1,6 +1,10 @@
 //Media Queries
 $breakpoint-tablet: 600px;
-$breakpoint-desktop: 900px;
+$breakpoint-desktop: 960px;
+
+$background-color: #95989C;
+$primary-color: #d0cfc9;
+$secondary-color: #aaa;
 
 //Partials
 @import "style-header";

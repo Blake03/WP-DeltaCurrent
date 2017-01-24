@@ -14,7 +14,7 @@ html {
     color: #211c1c;
     font-size: 1em;
     line-height: 1.4;
-    background: #95989c;
+    background: $background-color;
     margin-top: 0px;
 }
 
@@ -96,7 +96,7 @@ h2{
 .navbar{
 	background: rgba(35, 35, 35, .99);
 	font-weight: bold;
-	color: #dad7d7;
+	color: $primary-color;
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -236,7 +236,7 @@ h2{
 .feed-item {
   padding: 10px;
   border-bottom: 2px solid #777;
-  background: #dad7d7;
+  background: $primary-color;
   border-radius: 5px;
   margin: 5px;
 }
@@ -281,7 +281,7 @@ h2{
 /*==============Widgets==============*/
 
 .widget-area{
-    background: #aaa;
+    background: $secondary-color;
     //margin-left: 3vw;
     margin-top: 40px;
     padding: 20px;
@@ -296,7 +296,7 @@ h2{
 }
 
 .widget-2{
-    background: #aaa;
+    background: $secondary-color;
     padding: 20px;
     border-radius: 7px;
     margin: 20px 4px;
@@ -307,7 +307,7 @@ h2{
 
 /*==============Comments==============*/
 .comments-area{
-    background: #aaa;
+    background: $secondary-color;
     padding: 20px;
     margin: 45px 0px 0px 0px;
     box-sizing: border-box;
@@ -349,7 +349,7 @@ h2{
 }
 
 .default-page-content{
-    background: #aaa;
+    background: $secondary-color;
     padding: 20px;
     border-radius: 7px;
     margin-top: 45px;
@@ -361,7 +361,7 @@ h2{
 }
 
 .default-post-content{
-    background: #aaa;
+    background: $secondary-color;
     padding: 20px;
     border-radius: 7px;
     margin-top: 82px;
@@ -421,7 +421,7 @@ h2{
 //odd ads
 .displayaditemseven{
 	padding: 7px;
-	background: #d0cfc9;
+	background: $primary-color;
 	padding: 10px;
 	box-sizing: border-box;
 	border-radius: 2px;
@@ -440,7 +440,7 @@ h2{
 }
 
 .awpcplatestbox {
-    background: #d0cfc9;
+    background: $primary-color;
     padding: 10px;
 	border-bottom: 1px solid #888785;
     padding-bottom: 15px;
@@ -450,7 +450,7 @@ h2{
 }
 
 .awpcplatestthumb {
-    background: #d0cfc9 !important;
+    background: $primary-color !important;
 }
 
 .awpcp-listings-widget-item-listing-link img{

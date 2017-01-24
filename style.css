@@ -471,7 +471,7 @@ html {
   color: #211c1c;
   font-size: 1em;
   line-height: 1.4;
-  background: #95989c;
+  background: #95989C;
   margin-top: 0px;
 }
 
@@ -545,14 +545,14 @@ h2 {
 .navbar {
   background: rgba(35, 35, 35, 0.99);
   font-weight: bold;
-  color: #dad7d7;
+  color: #d0cfc9;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
   .navbar {
     /*desktop*/
     position: static;
@@ -585,7 +585,7 @@ h2 {
   padding: 10px 2vw;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
   .navbar__logo-wrapper__logo {
     /*desktop*/
     font-size: 25px;
@@ -605,7 +605,7 @@ h2 {
   line-height: 2;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
   .navbar__date-time {
     /*desktop*/
     font-size: 20px;
@@ -625,7 +625,7 @@ h2 {
   font-size: 14px;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
   .navbar__main-menu > div > ul {
     /*desktop*/
     -webkit-justify-content: center;
@@ -640,7 +640,7 @@ h2 {
   padding: 10px 0px;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
   .navbar__main-menu > div > ul > li {
     /*desktop*/
     padding: 7px 2vw;
@@ -673,7 +673,7 @@ h2 {
   left: 0;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
   .mobile-feed-menu {
     /*desktop*/
     display: none;
@@ -700,7 +700,7 @@ h2 {
           flex-direction: column;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
   .news-flex-wrapper {
     /*desktop*/
     -webkit-flex-direction: row;
@@ -723,7 +723,7 @@ h2 {
   padding-top: 127px;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
   .news-box {
     /*desktop*/
     width: 30vw;
@@ -735,7 +735,7 @@ h2 {
 .feed-item {
   padding: 10px;
   border-bottom: 2px solid #777;
-  background: #dad7d7;
+  background: #d0cfc9;
   border-radius: 5px;
   margin: 5px;
 }
@@ -765,7 +765,7 @@ h2 {
   color: #95989c;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
   .site-footer {
     /*desktop*/
     border-bottom: 2px solid #828181;
@@ -785,7 +785,7 @@ h2 {
   border-bottom: 1px solid #777;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
   .widget-area {
     /*desktop*/
     margin-right: 20px;
@@ -813,7 +813,7 @@ h2 {
   border-bottom: 1px solid #777;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
   .comments-area {
     /*desktop*/
     margin: 45px 20px 20px 20px;
@@ -833,7 +833,7 @@ h2 {
   padding: 10px;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
   .page-flex {
     /*desktop*/
     display: -webkit-flex;
@@ -859,7 +859,7 @@ h2 {
   border-bottom: 1px solid #777;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
   .default-page-content {
     /*desktop*/
     margin: 40px 20px 20px 20px;
@@ -874,7 +874,7 @@ h2 {
   border-bottom: 1px solid #777;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
   .default-post-content {
     /*desktop*/
     margin: 40px 20px 20px 20px;
@@ -885,7 +885,7 @@ h2 {
   margin-top: 50px;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
   .entry-content {
     /*desktop*/
     margin-top: 0px;
@@ -897,7 +897,7 @@ h2 {
 }
 
 /*==============floating layout==============*/
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
   /*desktop*/
   .column-main {
     margin: 0 30% 0 0;
@@ -913,7 +913,7 @@ h2 {
   margin-bottom: 100px;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
   .content-area {
     /*desktop*/
     float: left;
@@ -979,7 +979,7 @@ h2 {
  *
  * Copyright (c) 2016 Daniel Eden
  */
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
   .animated1 {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
