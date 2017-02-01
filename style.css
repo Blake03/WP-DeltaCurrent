@@ -804,7 +804,7 @@ h2 {
 
 /*==============Comments==============*/
 .comments-area {
-  background: #aaa;
+  background: #d0cfc9;
   padding: 20px;
   margin: 45px 0px 0px 0px;
   box-sizing: border-box;
@@ -852,7 +852,7 @@ h2 {
 }
 
 .default-page-content {
-  background: #aaa;
+  background: #d0cfc9;
   padding: 20px;
   border-radius: 7px;
   margin-top: 45px;
@@ -867,7 +867,7 @@ h2 {
 }
 
 .default-post-content {
-  background: #aaa;
+  background: #d0cfc9;
   padding: 20px;
   border-radius: 7px;
   margin-top: 82px;
@@ -930,9 +930,14 @@ h2 {
   border-radius: 2px;
 }
 
+.awpcp-title {
+  background: #d0cfc9 !important;
+  border-radius: 2px;
+}
+
 .displayaditemseven {
   padding: 7px;
-  background: #d0cfc9;
+  background: #bbb;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 2px;
@@ -940,9 +945,14 @@ h2 {
 
 .displayaditemsodd {
   margin-bottom: 10px;
-  background: #DEDDDE !important;
+  background: #aaa !important;
   padding: 10px;
   box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.cl-adsense {
+  background: #d0cfc9 !important;
   border-radius: 2px;
 }
 
@@ -970,6 +980,11 @@ h2 {
 
 .awpcp-listings-widget-item-excerpt {
   padding: 0px 10px;
+}
+
+/*suggestion box*/
+.nf-field-container, #ninja_forms_required_items {
+  margin: 10px 0px;
 }
 
 /*!

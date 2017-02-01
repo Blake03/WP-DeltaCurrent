@@ -109,6 +109,16 @@ function deltacurrent_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+
+		register_sidebar( array(
+		'name'          => esc_html__( 'footer-widget', 'deltacurrent' ),
+		'id'            => 'footer-widget',
+		'description'   => esc_html__( 'Add widgets here.', 'deltacurrent' ),
+		'before_widget' => '<section id="%1$s" class="footer-widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="-footer-widget-title">',
+		'after_title'   => '</h2>',
+	) );
 }
 add_action( 'widgets_init', 'deltacurrent_widgets_init' );
 
@@ -135,11 +145,11 @@ function deltacurrent_scripts() {
 add_action( 'wp_enqueue_scripts', 'deltacurrent_scripts' );
 
 // Load Font Awesome
-add_action( 'wp_enqueue_scripts', 'enqueue_font_awesome' );
-function enqueue_font_awesome() {
-
-	wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css' );
-}
+//function enqueue_font_awesome() {
+//
+//	wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css' );
+//}
+//add_action( 'wp_enqueue_scripts', 'enqueue_font_awesome' );
 
 
 /*Feeds*/ 
