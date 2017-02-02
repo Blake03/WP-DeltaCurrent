@@ -10,7 +10,8 @@
  */
 
 get_header(); ?>
-
+	<div id="primary" class="content-area-full-width">
+		<main id="main" class="site-main" role="main">
 
 			<ul class="mobile-feed-menu">
 				<li class="mobile-feed-menu__items"><a href="#arkansasrazorbacks">ArkansasRazorbacks</li>
@@ -38,6 +39,9 @@ get_header(); ?>
 				</div><!--news-box-->
 
 			</div><!--news-flex-wrapper-->
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
 
 <?php
 get_footer();

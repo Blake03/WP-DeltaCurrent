@@ -668,7 +668,6 @@ h2 {
   color: white;
   position: fixed;
   z-index: 420;
-  margin-top: 84px;
   padding: 3px;
   font-size: 12px;
   right: 0;
@@ -722,7 +721,7 @@ h2 {
   color: #000;
   border-radius: 5px;
   margin: 10px auto;
-  padding-top: 127px;
+  padding-top: 30px;
 }
 
 @media only screen and (min-width: 960px) {
@@ -822,6 +821,19 @@ h2 {
   }
 }
 
+.comment {
+  background: #c3c3c3;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px;
+}
+
+.comment-content {
+  padding: 7px;
+  background: beige;
+  border-radius: 5px;
+}
+
 .comments-area textarea {
   width: 100%;
 }
@@ -833,6 +845,17 @@ h2 {
 /*=========page.php & single.php styles=========*/
 .site {
   padding: 10px;
+}
+
+.site-main {
+  padding-top: 78px;
+}
+
+@media only screen and (min-width: 960px) {
+  .site-main {
+    /*desktop*/
+    padding-top: 0px;
+  }
 }
 
 @media only screen and (min-width: 960px) {
@@ -857,7 +880,6 @@ h2 {
   background: #d0cfc9;
   padding: 20px;
   border-radius: 7px;
-  margin-top: 45px;
   border-bottom: 1px solid #777;
 }
 
@@ -872,7 +894,7 @@ h2 {
   background: #d0cfc9;
   padding: 20px;
   border-radius: 7px;
-  margin-top: 82px;
+  margin-top: 20px;
   border-bottom: 1px solid #777;
 }
 
@@ -884,13 +906,13 @@ h2 {
 }
 
 .entry-content {
-  margin-top: 50px;
+  margin-top: 35px;
 }
 
 @media only screen and (min-width: 960px) {
   .entry-content {
     /*desktop*/
-    margin-top: 0px;
+    margin: 7px;
   }
 }
 
