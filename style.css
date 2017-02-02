@@ -547,6 +547,7 @@ h2 {
   font-weight: bold;
   color: #d0cfc9;
   position: fixed;
+  z-index: 420;
   top: 0;
   right: 0;
   left: 0;
@@ -666,6 +667,7 @@ h2 {
   background: rgba(95, 95, 95, 0.98);
   color: white;
   position: fixed;
+  z-index: 420;
   margin-top: 84px;
   padding: 3px;
   font-size: 12px;
