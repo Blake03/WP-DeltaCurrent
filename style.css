@@ -751,7 +751,7 @@ h2 {
 
 /*===feed-item-descriptions===*/
 .news-box p {
-  color: #5a5959;
+  color: #2b2b2b;
   font-size: 14px;
   line-height: 1.45;
 }
@@ -777,7 +777,7 @@ h2 {
 
 /*==============Widgets==============*/
 .widget-area {
-  background: #aaa;
+  background: #d0cfc9;
   margin-top: 40px;
   padding: 20px;
   box-sizing: border-box;
@@ -794,7 +794,7 @@ h2 {
 }
 
 .widget-2 {
-  background: #aaa;
+  background: #d0cfc9;
   padding: 20px;
   border-radius: 7px;
   margin: 20px 4px;
@@ -941,14 +941,15 @@ h2 {
   padding: 10px;
   box-sizing: border-box;
   border-radius: 2px;
+  margin-bottom: 20px !important;
 }
 
 .displayaditemsodd {
-  margin-bottom: 10px;
   background: #aaa !important;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 2px;
+  margin-bottom: 20px !important;
 }
 
 .cl-adsense {
@@ -961,9 +962,9 @@ h2 {
 }
 
 .awpcplatestbox {
-  background: #d0cfc9;
+  background: #BBBBBB;
   padding: 10px;
-  border-bottom: 1px solid #888785;
+  border-bottom: 1px solid #a9a8a8;
   padding-bottom: 15px;
   margin: 10px 5px;
   border-radius: 4px;
@@ -971,7 +972,7 @@ h2 {
 }
 
 .awpcplatestthumb {
-  background: #d0cfc9 !important;
+  background: #BBBBBB !important;
 }
 
 .awpcp-listings-widget-item-listing-link img {
@@ -984,7 +985,8 @@ h2 {
 
 /*suggestion box*/
 .nf-field-container, #ninja_forms_required_items {
-  margin: 10px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px !important;
 }
 
 /*!

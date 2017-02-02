@@ -92,7 +92,7 @@ function deltacurrent_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar', 'deltacurrent' ),
 		'id'            => 'sidebar-1',
-		'description'   => esc_html__( 'Add widgets here.', 'deltacurrent' ),
+		'description'   => esc_html__( 'Primary Sidebar Widgets.', 'deltacurrent' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
@@ -101,9 +101,9 @@ function deltacurrent_widgets_init() {
 
 
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar2', 'deltacurrent' ),
-		'id'            => 'sidebar-2',
-		'description'   => esc_html__( 'Add widgets here.', 'deltacurrent' ),
+		'name'          => esc_html__( 'News Feed Widget Area', 'deltacurrent' ),
+		'id'            => 'news-feed-widget',
+		'description'   => esc_html__( 'News Feed Widgets.', 'deltacurrent' ),
 		'before_widget' => '<section id="%1$s" class="widget-2 %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
@@ -111,9 +111,9 @@ function deltacurrent_widgets_init() {
 	) );
 
 		register_sidebar( array(
-		'name'          => esc_html__( 'footer-widget', 'deltacurrent' ),
+		'name'          => esc_html__( 'Footer Widget Area', 'deltacurrent' ),
 		'id'            => 'footer-widget',
-		'description'   => esc_html__( 'Add widgets here.', 'deltacurrent' ),
+		'description'   => esc_html__( 'Footer widgets.', 'deltacurrent' ),
 		'before_widget' => '<section id="%1$s" class="footer-widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="-footer-widget-title">',

@@ -38,7 +38,7 @@ get_header(); ?>
 				<div id="monticellolive" class="news-box animated3 rotateInDownRight">
 					<h2>MonticelloLive.com</h2>
 					<?php getFeed("http://monticellolive.com/feed"); ?>
-					<?php dynamic_sidebar( 'sidebar-2' ); ?>
+					<?php dynamic_sidebar( 'news-feed-widget' ); ?>
 
 
 				</div><!--news-box-->
