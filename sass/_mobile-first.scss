@@ -403,8 +403,9 @@ h2{
 		margin: 40px 20px 20px 20px;
 		}
 }
+
 .entry-content{
-	margin-top: 35px;
+	padding: 5px;
 		@media only screen and (min-width: $breakpoint-desktop) {
 		/*desktop*/
 			margin: 7px;
