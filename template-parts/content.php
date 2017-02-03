@@ -40,9 +40,11 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
+		<!--
 		<div class="entry-meta">
 			<?php deltacurrent_posted_on(); ?>
-		</div><!-- .entry-meta -->
+		</div>
+		-->
 		<?php deltacurrent_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
