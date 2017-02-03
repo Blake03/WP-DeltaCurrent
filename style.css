@@ -925,11 +925,15 @@ h2 {
 }
 
 .entry-content a {
-  text-decoration: underline;
+  color: #304c30;
 }
 
 .entry-content a:hover {
   color: #163ac5;
+}
+
+.entry-content img {
+  max-width: 100%;
 }
 
 .site-content {
@@ -995,6 +999,10 @@ h2 {
 .cl-adsense {
   background: #d0cfc9 !important;
   border-radius: 2px;
+}
+
+.awpcp-listing-title a:hover {
+  color: #163ac5;
 }
 
 .awpcp-listings-widget-item {
