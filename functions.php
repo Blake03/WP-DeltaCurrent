@@ -161,7 +161,7 @@ function getFeed($feed_url) {
     echo "<ul>";
      
     foreach($xml->channel->item as $entry) {
-        echo "<li class='feed-item' > <a class='feed-link' href='$entry->link' title='$entry->title'>" . $entry->title . "</a> 
+        echo "<li class='feed-item' > <a target='_blank' class='feed-link' href='$entry->link' title='$entry->title'>" . $entry->title . "</a> 
         <p class='feed-description'> $entry->description</p> </li>";
     }
     echo "</ul>";
