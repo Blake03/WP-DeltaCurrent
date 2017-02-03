@@ -39,14 +39,14 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
 		<!--
+	<footer class="entry-footer">
 		<div class="entry-meta">
 			<?php deltacurrent_posted_on(); ?>
 		</div>
-		-->
 		<?php deltacurrent_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	</footer>
+		-->
 </article><!-- #post-## -->
 </div><!--default-post-content-->
 
