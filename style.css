@@ -747,7 +747,7 @@ h2 {
 }
 
 .feed-link:hover {
-  color: #092fc5;
+  color: #163ac5;
 }
 
 /*===feed-item-descriptions===*/
@@ -905,6 +905,14 @@ h2 {
   }
 }
 
+.entry-title {
+  font-size: 1.5em;
+}
+
+.entry-title a:hover {
+  color: #163ac5;
+}
+
 .entry-content {
   padding: 5px;
 }
@@ -1013,6 +1021,7 @@ h2 {
   margin-bottom: 10px !important;
 }
 
+/*socil-icon-plugin*/
 .wpusb {
   margin-bottom: 0px;
 }
