@@ -420,6 +420,13 @@ h2{
 		}
 }
 
+.entry-content a{
+	text-decoration: underline;
+		&:hover{
+			color: #163ac5;
+		}
+}
+
 .site-content{
 	padding-bottom: 100px;
 }
