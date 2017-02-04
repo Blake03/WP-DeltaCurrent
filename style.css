@@ -1042,6 +1042,11 @@ h2 {
   margin-bottom: 0px;
 }
 
+/*fb-comments-plugin*/
+#wpdevar_comment_1 {
+  margin-top: 20px;
+}
+
 /*!
  * animate.css -http://daneden.me/animate
  * Version - 3.5.1
