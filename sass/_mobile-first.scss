@@ -103,6 +103,7 @@ h2{
 	top: 0;
 	right: 0;
 	left: 0;
+	border-bottom: 2px solid #828181;
 		@media only screen and (min-width: $breakpoint-desktop) {
 		/*desktop*/
     		position: static;
@@ -190,10 +191,11 @@ h2{
     position: fixed;
     z-index: 420;
     //margin-top: 84px;
-    padding: 3px;
+    padding: 5px;
     font-size: 12px;
     right: 0;
     left: 0;
+    top: 93px;
     	@media only screen and (min-width: $breakpoint-desktop) {
 		/*desktop*/
 			display: none;
@@ -221,19 +223,27 @@ h2{
 
 
 /*===news-feeds===*/
+.news-box:nth-child(1){
+padding-top: 45px;
+		@media only screen and (min-width: $breakpoint-desktop) {
+		/*desktop*/
+			padding-top: 15px;
+		}
+}
 .news-box{
 	width: 90vw;
 	padding: 10px;
 	color: #000;
 	border-radius: 5px;
 	margin: 10px auto;
-	padding-top: 30px;
+	padding-top: 133px;
 		@media only screen and (min-width: $breakpoint-desktop) {
 		/*desktop*/
 			width: 30vw;
 			padding-top: 15px;
 		}
 }
+
 
 /*===feed-items===*/
 .feed-item {
@@ -281,10 +291,10 @@ h2{
 		}
 }
 
-//.site-footer > section {
-//	width: 30vw;
-//	padding: 10px;
-//}
+.site-footer > div {
+	//width: 40vw;
+	//padding: 10px;
+}
 
 /*==============Widgets==============*/
 

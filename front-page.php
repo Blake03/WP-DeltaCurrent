@@ -18,7 +18,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<ul class="mobile-feed-menu">
-				<li class="mobile-feed-menu__items"><a href="#arkansasonline">ArkansasOnline</li>
+				<li class="mobile-feed-menu__items"><a href="#primary">ArkansasOnline</li>
 				<li class="mobile-feed-menu__items"><a href="#searktoday">SearkToday</a></li>
 				<li class="mobile-feed-menu__items"><a href="#monticellolive">MonticelloLive</a></li>
 			</ul><!--mobile-menu-->

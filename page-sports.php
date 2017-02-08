@@ -14,7 +14,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<ul class="mobile-feed-menu">
-				<li class="mobile-feed-menu__items"><a href="#arkansasrazorbacks">ArkansasRazorbacks</li>
+				<li class="mobile-feed-menu__items"><a href="#primary">ArkansasRazorbacks</li>
 				<li class="mobile-feed-menu__items"><a href="#wholehogsoprts">WholeHogSports</a></li>
 				<li class="mobile-feed-menu__items"><a href="#espn">ESPN</a></li>
 			</ul><!--mobile-menu-->

@@ -551,6 +551,7 @@ h2 {
   top: 0;
   right: 0;
   left: 0;
+  border-bottom: 2px solid #828181;
 }
 
 @media only screen and (min-width: 960px) {
@@ -668,10 +669,11 @@ h2 {
   color: white;
   position: fixed;
   z-index: 420;
-  padding: 3px;
+  padding: 5px;
   font-size: 12px;
   right: 0;
   left: 0;
+  top: 93px;
 }
 
 @media only screen and (min-width: 960px) {
@@ -715,13 +717,24 @@ h2 {
 }
 
 /*===news-feeds===*/
+.news-box:nth-child(1) {
+  padding-top: 45px;
+}
+
+@media only screen and (min-width: 960px) {
+  .news-box:nth-child(1) {
+    /*desktop*/
+    padding-top: 15px;
+  }
+}
+
 .news-box {
   width: 90vw;
   padding: 10px;
   color: #000;
   border-radius: 5px;
   margin: 10px auto;
-  padding-top: 30px;
+  padding-top: 133px;
 }
 
 @media only screen and (min-width: 960px) {
