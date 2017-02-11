@@ -91,9 +91,6 @@ textarea {
 h2{
 	font-size: 18px;
 }
-.sub-menu li {
-	display: none;
-}
 
 /*==============Navbar Styles==============*/
 .navbar{
@@ -178,32 +175,60 @@ h2{
 						}
 				}
 		}
-		//hover
+		//hide sub-menu
+		&__main-menu > div > ul > li > .sub-menu > li{
+			display: none;
+		}
+		//show sub-menu on hover
 		&__main-menu > div > ul > li:hover > .sub-menu li {
 			display: block;
 			z-index: 99;
+			opacity: 0;
+			@for $i from 1 through 6{
+				&:nth-child(#{$i}){
+					animation-name: sub-menu-fade;
+					animation-delay: 32ms * $i;
+					animation-duration: 30ms;
+					animation-fill-mode: forwards;
+					animation-timing-function: ease-in;
+				}
+			}
 		}
 
 		&__main-menu > div > ul > li > .sub-menu{
 			position: absolute;
-			background: rgba(35, 35, 35, .99);
-			border-radius: 5px;
 			z-index: 99;
 		}
 
 		&__main-menu > div > ul > li > .sub-menu > li{
 			padding: 7px;
+			background: rgba(35, 35, 35, .99);
 				&:hover{
 					background: #191818;
-					border-radius: 5px;
 				}
 		}
+
+		&__main-menu > div > ul > li > .sub-menu > li:last-child{
+			border-radius: 0px 0px 5px 5px;
+		}
+
 }//end-navbar
 
 .current-menu-item {
 	color: #fdfdfd;
 }
 
+@keyframes sub-menu-fade{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: .7;
+	}
+	100%{
+		opacity: 1;
+	}
+}
 /*==============News Feed Styles==============*/
 
 /*===Mobile-Feed-Menue Styles===*/
