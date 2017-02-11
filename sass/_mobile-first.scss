@@ -91,21 +91,25 @@ textarea {
 h2{
 	font-size: 18px;
 }
-
+.sub-menu li {
+	display: none;
+}
 
 /*==============Navbar Styles==============*/
 .navbar{
 	background: rgba(35, 35, 35, .99);
 	font-weight: bold;
 	color: $primary-color;
+	height: 93px;
 	position: fixed;
-	z-index: 420;
+	z-index: 10;
 	top: 0;
 	right: 0;
 	left: 0;
-	border-bottom: 2px solid #828181;
+	border-bottom: 1px solid #828181;
 		@media only screen and (min-width: $breakpoint-desktop) {
 		/*desktop*/
+			height: 105px;
     		position: static;
     		border-bottom: 2px solid #828181;
     		border-radius: 5px;
@@ -165,6 +169,7 @@ h2{
 
 		&__main-menu > div > ul > li {
 			padding: 10px 0px;
+			z-index: 99;
 				@media only screen and (min-width: $breakpoint-desktop) {
 				/*desktop*/
 					padding: 7px 2vw;
@@ -173,7 +178,26 @@ h2{
 						}
 				}
 		}
+		//hover
+		&__main-menu > div > ul > li:hover > .sub-menu li {
+			display: block;
+			z-index: 99;
+		}
 
+		&__main-menu > div > ul > li > .sub-menu{
+			position: absolute;
+			background: rgba(35, 35, 35, .99);
+			border-radius: 5px;
+			z-index: 99;
+		}
+
+		&__main-menu > div > ul > li > .sub-menu > li{
+			padding: 7px;
+				&:hover{
+					background: #191818;
+					border-radius: 5px;
+				}
+		}
 }//end-navbar
 
 .current-menu-item {
@@ -189,7 +213,7 @@ h2{
     background: rgba(95, 95, 95, .98);
     color: white;
     position: fixed;
-    z-index: 420;
+    z-index: 5;
     //margin-top: 84px;
     padding: 5px;
     font-size: 12px;
@@ -556,3 +580,30 @@ padding-top: 45px;
 #wpdevar_comment_1{
 	margin-top: 20px;
 }
+
+
+/*ebay-feed-plugin*/
+
+.ebay-feed-item{
+    margin: 10px 0px 40px;
+    background: #BBB;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.ebay-feed-item tr{
+	display: flex;
+	flex-direction: column;
+}
+
+.ebay-feed-item td{
+	padding: 10px;
+	text-align: center;
+}
+
+.ebay-feed-item img{
+	min-width: 75%;
+}
+
+
+

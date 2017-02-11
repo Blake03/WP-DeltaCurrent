@@ -541,22 +541,28 @@ h2 {
   font-size: 18px;
 }
 
+.sub-menu li {
+  display: none;
+}
+
 /*==============Navbar Styles==============*/
 .navbar {
   background: rgba(35, 35, 35, 0.99);
   font-weight: bold;
   color: #d0cfc9;
+  height: 93px;
   position: fixed;
-  z-index: 420;
+  z-index: 10;
   top: 0;
   right: 0;
   left: 0;
-  border-bottom: 2px solid #828181;
+  border-bottom: 1px solid #828181;
 }
 
 @media only screen and (min-width: 960px) {
   .navbar {
     /*desktop*/
+    height: 105px;
     position: static;
     border-bottom: 2px solid #828181;
     border-radius: 5px;
@@ -640,6 +646,7 @@ h2 {
 
 .navbar__main-menu > div > ul > li {
   padding: 10px 0px;
+  z-index: 99;
 }
 
 @media only screen and (min-width: 960px) {
@@ -650,6 +657,27 @@ h2 {
   .navbar__main-menu > div > ul > li:hover {
     color: #fdfdfd;
   }
+}
+
+.navbar__main-menu > div > ul > li:hover > .sub-menu li {
+  display: block;
+  z-index: 99;
+}
+
+.navbar__main-menu > div > ul > li > .sub-menu {
+  position: absolute;
+  background: rgba(35, 35, 35, 0.99);
+  border-radius: 5px;
+  z-index: 99;
+}
+
+.navbar__main-menu > div > ul > li > .sub-menu > li {
+  padding: 7px;
+}
+
+.navbar__main-menu > div > ul > li > .sub-menu > li:hover {
+  background: #191818;
+  border-radius: 5px;
 }
 
 .current-menu-item {
@@ -668,7 +696,7 @@ h2 {
   background: rgba(95, 95, 95, 0.98);
   color: white;
   position: fixed;
-  z-index: 420;
+  z-index: 5;
   padding: 5px;
   font-size: 12px;
   right: 0;
@@ -1058,6 +1086,32 @@ h2 {
 /*fb-comments-plugin*/
 #wpdevar_comment_1 {
   margin-top: 20px;
+}
+
+/*ebay-feed-plugin*/
+.ebay-feed-item {
+  margin: 10px 0px 40px;
+  background: #BBB;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+.ebay-feed-item tr {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ebay-feed-item td {
+  padding: 10px;
+  text-align: center;
+}
+
+.ebay-feed-item img {
+  min-width: 75%;
 }
 
 /*!
