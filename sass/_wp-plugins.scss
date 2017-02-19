@@ -1,0 +1,126 @@
+/* ==========================================================================
+   Wordpress Pluging Styles
+   ========================================================================== */
+
+
+
+/*==============AWPCP==============*/
+
+.awpcp-nav-menu{
+    background: #95989c;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+
+.awpcp-title{
+	background: $primary-color !important;
+	border-radius: 2px;
+}
+//even ads
+.displayaditemseven{
+	padding: 7px;
+	background: #bbb;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 2px;
+	margin-bottom: 20px !important;
+}
+//odd ads
+.displayaditemsodd{
+    background: #aaa !important;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+	margin-bottom: 20px !important;
+}
+
+.cl-adsense{
+	background: $primary-color !important;
+	border-radius: 2px;
+}
+
+.awpcp-listing-title a:hover{
+	color: #163ac5;
+}
+
+.awpcp-listings-widget-item {
+	margin-bottom: 25px !important;
+}
+
+.awpcplatestbox {
+    background: #BBBBBB;
+    padding: 10px;
+	border-bottom: 1px solid #a9a8a8;
+    padding-bottom: 15px;
+    margin: 10px 5px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.awpcplatestthumb {
+    background: #BBBBBB !important;
+}
+
+.awpcp-listings-widget-item-listing-link img{
+	border-radius: 3px;
+}
+
+.awpcp-listings-widget-item-excerpt{
+	padding: 0px 10px;
+}
+
+
+
+/*suggestion box*/
+.nf-field-container, #ninja_forms_required_items{
+	margin-top: 10px;
+	margin-bottom: 10px !important;
+}
+
+
+
+
+
+/*==============socil-icon-plugin==============*/
+.wpusb{
+	margin-bottom: 0px;
+}
+
+
+
+
+
+/*==============fb-comments-plugin==============*/
+
+#wpdevar_comment_3, #wpdevar_comment_1{
+	margin-top: 20px;
+}
+
+
+
+
+
+/*==============ebay-feed-plugin==============*/
+
+.ebay-feed-item{
+    margin: 10px 0px 40px;
+    background: #BBB;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.ebay-feed-item tr{
+	display: flex;
+	flex-direction: column;
+}
+
+.ebay-feed-item td{
+	padding: 10px;
+	text-align: center;
+}
+
+.ebay-feed-item img{
+	min-width: 75%;
+}
+

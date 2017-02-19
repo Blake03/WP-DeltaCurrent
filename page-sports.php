@@ -10,6 +10,7 @@
  */
 
 get_header(); ?>
+
 	<div id="primary" class="content-area-full-width">
 		<main id="main" class="site-main" role="main">
 
@@ -25,7 +26,6 @@ get_header(); ?>
 					<h2>ArkansasRazorbacks.com</h2>
 					<?php getFeed("http://www.arkansasrazorbacks.com/feed/"); ?>
 					<?php dynamic_sidebar( 'news-feed-widget' ); ?>
-
 				</div><!--news-box-->
 
 				<div id="wholehogsoprts" class="news-box animated2 rotateInDownRight">
