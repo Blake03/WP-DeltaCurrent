@@ -429,7 +429,8 @@ html {
   font-size: 1em;
   line-height: 1.4;
   background: #95989C;
-  margin-top: 0px; }
+  margin-top: 0px;
+  visibility: hidden; }
 
 ::-moz-selection {
   background: #b3d4fc;
@@ -523,18 +524,18 @@ h2 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column; }
-    .navbar__logo-wrapper__logo {
-      font-size: 22px;
-      padding: 10px 2vw; }
-      @media only screen and (min-width: 960px) {
-        .navbar__logo-wrapper__logo {
-          /*desktop*/
-          font-size: 25px; } }
-    .navbar__logo-wrapper__tag-line {
-      padding-left: 2vw;
-      font-size: 14px;
-      margin-top: -14px;
-      margin-left: 2px; }
+  .navbar__logo {
+    font-size: 22px;
+    padding: 10px 2vw; }
+    @media only screen and (min-width: 960px) {
+      .navbar__logo {
+        /*desktop*/
+        font-size: 25px; } }
+  .navbar__tag-line {
+    padding-left: 2vw;
+    font-size: 14px;
+    margin-top: -14px;
+    margin-left: 2px; }
   .navbar__date-time {
     padding: 10px 2vw;
     font-size: 13px;

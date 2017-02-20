@@ -16,6 +16,7 @@ html {
     line-height: 1.4;
     background: $background-color;
     margin-top: 0px;
+    visibility: hidden
 }
 
 ::-moz-selection {
@@ -122,23 +123,23 @@ h2{
 		&__logo-wrapper{
 			display: flex;
 			flex-direction: column;
+		}
 
 
-			&__logo{
-				font-size: 22px;
-				padding: 10px 2vw;
-					@media only screen and (min-width: $breakpoint-desktop) {
-					/*desktop*/
-						font-size: 25px;
-					}
-			}
+		&__logo{
+			font-size: 22px;
+			padding: 10px 2vw;
+				@media only screen and (min-width: $breakpoint-desktop) {
+				/*desktop*/
+					font-size: 25px;
+				}
+		}
 
-			&__tag-line{
-				padding-left: 2vw;
-				font-size: 14px;
-				margin-top: -14px;
-				margin-left: 2px;
-			}
+		&__tag-line{
+			padding-left: 2vw;
+			font-size: 14px;
+			margin-top: -14px;
+			margin-left: 2px;
 		}
 
 		&__date-time{

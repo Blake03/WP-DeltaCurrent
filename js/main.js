@@ -26,3 +26,6 @@ $("a.back-to-top").click(function() {
     return !1
 });
 
+$(document).ready(function() {
+  document.getElementsByTagName("html")[0].style.visibility = "visible";
+});

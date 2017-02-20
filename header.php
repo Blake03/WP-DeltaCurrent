@@ -11,13 +11,13 @@
 
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
-<head>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
-<title>DeltaCurrent</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="profile" href="http://gmpg.org/xfn/11">
 
-<?php wp_head(); ?>
+<head>
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <title>DeltaCurrent</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
@@ -36,8 +36,8 @@
             <div class="navbar__header">
 
                 <div class="navbar__logo-wrapper">
-                    <a class="navbar__logo-wrapper__logo" href="http://deltacurrent.com/">DeltaCurrent.com</a>
-                    <a class="navbar__logo-wrapper__tag-line" href="http://deltacurrent.com/">local news online</a>
+                    <a class="navbar__logo" href="http://deltacurrent.com/">DeltaCurrent.com</a>
+                    <a class="navbar__tag-line" href="http://deltacurrent.com/">local news online</a>
                 </div>
 
                 <div class="navbar__date-time">
