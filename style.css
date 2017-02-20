@@ -429,8 +429,7 @@ html {
   font-size: 1em;
   line-height: 1.4;
   background: #95989C;
-  margin-top: 0px;
-  visibility: hidden; }
+  margin-top: 0px; }
 
 ::-moz-selection {
   background: #b3d4fc;

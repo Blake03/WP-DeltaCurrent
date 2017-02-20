@@ -3,7 +3,6 @@ var d = new Date();
 document.getElementById("date").innerHTML = d.toDateString();
 
 //smoothscroll & back2top
-
 jQuery("a").on("click", function(b) {
     if ("" !== this.hash) {
         b.preventDefault();
@@ -26,6 +25,3 @@ $("a.back-to-top").click(function() {
     return !1
 });
 
-$(document).ready(function() {
-  document.getElementsByTagName("html")[0].style.visibility = "visible";
-});
