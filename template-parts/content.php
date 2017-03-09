@@ -44,7 +44,7 @@
 		<div class="entry-meta">
 			<?php deltacurrent_posted_on(); ?>
 		</div>
-		<?php deltacurrent_entry_footer(); ?>
+		<?php //deltacurrent_entry_footer(); ?>
 	</footer>
 		
 </article><!-- #post-## -->
