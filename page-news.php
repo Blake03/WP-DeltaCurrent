@@ -20,6 +20,25 @@ get_header(); ?>
 				<li class="mobile-feed-menu__items"><a href="#monticellolive">MonticelloLive</a></li>
 			</ul><!--mobile-menu-->
 
+
+		<!-- CUSTOM LOOP
+			<div class="scoreboard-wrapper">
+				<ul class="scoreboard">
+					
+				<?php $scoreQuery = new WP_Query('catogory_name=robopost'); ?>
+					
+					<?php while ($scoreQuery -> have_posts() ) : $scoreQuery ->the_post();?>
+
+						<li>
+						<?php the_title(); ?> 
+						</li>
+
+					<?php endwhile; ?> 
+					
+
+				</ul>
+			</div>
+		-->	
 			<div class="news-flex-wrapper">
 				
 				<div id="arkansasonline" class="news-box animated1 rotateInDownRight">

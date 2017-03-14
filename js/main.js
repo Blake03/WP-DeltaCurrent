@@ -1,7 +1,3 @@
-//Current Date
-var d = new Date();
-document.getElementById("date").innerHTML = d.toDateString();
-
 //smoothscroll & back2top
 jQuery("a").on("click", function(b) {
     if ("" !== this.hash) {

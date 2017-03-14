@@ -41,7 +41,7 @@
                 </div>
 
                 <div class="navbar__date-time">
-                    <p id="date"></p>
+                    <?php echo date('F jS, Y'); ?>
                 </div><!--date-time-->
 
             </div><!--navbar__header-->
